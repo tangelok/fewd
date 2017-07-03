@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway:400,600');
+
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+body {
+	font-family: "Raleway", sans-serif;
+	color: #44545E;
+	text-align: center;
+	font-size: 15px;
+	text-decoration: none;
+	font-weight: 600;
+	text-transform:	uppercase;
+	letter-spacing: .02em;
+	-webkit-font-smoothing: antialiased;
+}
+/* Fix for responsive images */
+img {
+	max-width: 100%;
+}
+nav a {
+	color: #7b98AA;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 16px;
+	margin: 40px;
+	font-weight: 600;
+	padding-top: 10px;
+}
+header a {
+	font-size: 37px;
+	color: #44545E;
+	text-decoration: none;
+	font-weight: 600;
+}
+header h1 a {
+	color: white;
+}
+header{
+	padding: 100px;
+	letter-spacing: 8px;
+	background-image: url(../images/blog_header_bg.jpg);
+	background-size: cover;
+	margin-bottom: 75px;
+	margin-top: 25px;
+}
+h3 {
+	font-size: 18px;
+	text-align: left;
+}
+h2 {
+	font-size: 23px;
+	text-align: left;
+}
+p {
+	font-family: "Lato", serif;
+	font-size: 15px;
+	font-weight: 400;
+	text-align: left;
+	text-transform: none;
+}
+footer p {
+	font-family: "Lato", serif;
+}
+footer {
+	background-color: #CDF3F6;
+	padding: 50px;
+}
+footer a {
+	text-decoration: none;
+	margin: 20px;
+	color: #44545E;
+}
+footer p a {
+	font-weight:	bold;
+}
+footer p {
+	text-align: center;
+}
+hr {
+	border:	1px	solid;
+	border-color: #44545E;
+}
+ul {
+	font-weight: 400;
+	text-align: left;
+	text-transform: none;
+}
+ul a {
+	text-decoration: none;
+	color: #7B98AA;
+}
+li {
+	line-height:	30px;
+}
+aside {
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+aside img {
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+div {
+	display: flex;
+}
+article {
+	width: 70%;
+	margin-left: 100px;
+	margin-right: 70px;
+	margin-bottom: 50px;
+}
+aside {
+	width: 30%;
+	margin-right: 60px;
+}
+.email{
+	background-color: white;
+	text-transform:	uppercase;
+	font-family: "Lato", serif;
+	font-size: 12px;
+	text-decoration: none;
+	margin-right: 25px;
+	padding: 5px 75px;
+	margin-bottom: 40px;
+	border: none;
+	color: gray;
+}
+.kit {
+	border: 2px solid #44545E;
+	padding: 10px 24px;
+	margin-bottom: 40px;
+	font-family: "Lato", serif;
+	font-size: 12px;
+	text-transform:	uppercase;
+	background-color: #CDF3F6;
+	text-decoration: none;
+}
+.fa {
+	font-size: 15px;
+}
