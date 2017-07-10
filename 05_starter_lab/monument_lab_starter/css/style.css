@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=Lato%7CRaleway:600');
+
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+/* Note: Makes sure that padding and the border are included in the width for each element. */
+/* Don't add anything else under the * selector! */
+* {
+	box-sizing: border-box;
+}
+img {
+	max-width: 100%;
+}
+body {
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+ 	font-weight: 600;
+	color: #44545E;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+/* ----------------------------------------
+Typography
+------------------------------------------- */
+h1 a{
+	text-decoration: none;
+	color: white;
+	font-size: 37px;
+}
+h2 {
+	font-size: 23px;
+}
+h3 {
+	font-size: 18px;
+}
+p {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+}
+article button {
+	font-size: 13px;
+}
+nav a {
+	text-decoration: none;
+	color: #7B98AA;
+	margin: 40px;
+}
+.title {
+	color: white;
+}
+
+
+/* ----------------------------------------
+Lists
+------------------------------------------- */
+
+
+
+/* ----------------------------------------
+Layout
+------------------------------------------- */
+div {
+	display: flex;
+}
+.article {
+	flex: 0 1 auto;
+	justify-content: space-between;
+	width: 91%;
+}
+.magazine {
+	margin-top: 150px;
+	margin-bottom: 150px;
+	background-color: #CDF3F6;
+	padding: 70px;
+}
+.magazine p {
+	margin-left: 150px;
+	margin-right: 150px;
+	text-transform: none;
+}
+.article p {
+	text-transform: none;
+}
+.images h2 {
+	margin-bottom: 50px;
+}
+.images h3 {
+	margin-bottom: 40px;
+}
+.gallery {
+	display: block;
+	justify-content: space-between;
+	margin: 15px;
+}
+.gallery2 {
+	display: block;
+	justify-content: space-between;
+	margin: 15px;
+	margin-bottom: 30px;
+}
+.gallery3 {
+	display: block;
+	margin: 15px;
+	justify-content: space-between;
+}
+
+/* ----------------------------------------
+Header
+------------------------------------------- */
+header {
+	background-image: url("../images/home_header_bg.jpg");
+	min-height: 400px;
+	background-position: center;
+	background-size: cover;
+	margin-bottom: 75px;
+	text-align: center;
+}
+
+.header {
+	align-items: center;
+	justify-content: center;
+}
+
+
+/* ----------------------------------------
+Buttons
+------------------------------------------- */
+.fa {
+	font-size: 24px !important;
+}
+.more {
+	border: 2px solid #44545E;
+	background-color: white;
+	font-size: 13px;
+	text-transform: uppercase;
+	padding: 10px 24px;
+	margin-top: 15px;
+}
+button {
+	border: 2px solid #44545E;
+	padding: 5px 24px;
+	margin-bottom: 40px;
+	font-family: "Lato", serif;
+	font-size: 12px;
+	text-transform:	uppercase;
+	background-color: #CDF3F6;
+	text-decoration: none;
+	margin-left: 20px;
+}
+
+
+/* ----------------------------------------
+Footer
+------------------------------------------- */
+footer input {
+	background-color: white;
+	text-transform:	uppercase;
+	font-family: "Lato", serif;
+	font-size: 12px;
+	text-decoration: none;
+	text-align: center;
+	padding: 5px 60px;
+	margin-top: 40px;
+}
+footer {
+	background-color: #CDF3F6;
+	padding: 50px;
+}
+footer p {
+	text-transform: none;
+}
+footer a {
+		text-decoration: none;
+		margin: 20px;
+		color: #44545E;
+}
